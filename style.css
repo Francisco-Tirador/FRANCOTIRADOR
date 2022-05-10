@@ -1,0 +1,329 @@
+*{
+    
+    margin: 0;
+    color:#ffffff;
+    font-family: 'Montserrat', sans-serif;
+
+}
+body{
+    background-color: #090d27;
+    font-size: 18px;
+}
+
+.espacio_celda_1{
+    width:8.33% ;
+}
+.espacio_celda_2{
+    width:16.66%;
+}
+.espacio_celda_3{
+    width:25%;
+}
+.espacio_celda_4{
+    width:33.33%;
+}
+.espacio_celda_5{
+    width: 41.66%;
+}
+.espacio_celda_6{
+    width: 50%;
+}
+.espacio_celda_7{
+    width: 58.33%;
+}
+.espacio_celda_8{
+    width: 66.66%;
+}
+.espacio_celda_9{
+    width: 75%;
+}
+.espacio_celda_10{
+    width:83.33%;
+}
+.espacio_celda_11{
+    width:91.66%;
+}
+.espacio_celda_12{
+    width:100%;
+}
+
+.bg_green{
+    background-color: green;
+}
+.bg_red{
+    background-color: red;
+}
+
+.bg_blue{
+    color:#34B0BE;
+}
+.titule{
+    font-size: 5rem;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.sub_titule{
+    
+    font-size: 4rem;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    
+    }
+.subsepcion{
+    font-size:3rem;
+    
+
+    }
+
+
+h1{
+    display:inline;
+   
+    text-decoration: overline white 5px ;
+}
+.node{
+    display: inline;
+    font-weight: 700;
+    
+    
+}
+
+.posicionamiento_elemt{
+    
+    display: flex;
+    justify-content:center ;
+    position:absolute;
+     z-index: 99;
+}
+/*°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°*/
+
+/*barra de3 navegacion*/
+ul{
+    list-style: none;
+}
+
+ul{
+
+    display: flex;
+    padding:4%;
+    justify-content: space-around;
+    margin-left: 30%;
+   
+    
+}
+/*seccion de experciencia*/
+.cuerpo_experiencia{
+    display:inline;
+}
+
+
+
+.icos1{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.icos1 div{
+    display:inline;
+    justify-content:space-between;
+    margin-top: 10px;
+    
+    background-color: white;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+
+
+}
+.icos1 div img{
+    text-align: center;
+    
+}
+
+
+
+
+/* circulo con imagen */
+.conten_circle{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+    position:relative;
+    z-index: 4;
+    top:0px;
+
+   
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end ;
+    background-color: #242635;
+    width:500px;
+    height:500px;
+    border-radius: 60%;
+}
+.img{
+
+width: 70%;
+height: 75%;
+margin-bottom: 10%;
+   
+}
+
+
+/*icos2*/
+.conten_icos2{
+    
+    display: flex;
+    justify-content: center;
+text-align: center;
+  position:absolute;
+  top:81%;
+  z-index: 44;
+    
+    
+}
+.img_ico2{
+    width:40px;
+    height: 40px;
+}
+
+.icos2{
+    
+    justify-content:space-around ;
+    border-radius: 5px;
+    padding: 30px;
+    display: inline-flex;
+    background-color:#242635;
+    width:700px;
+    
+    
+}
+.conte_icos2{
+    display: inline;
+    padding: 20px;
+    background-color: white;
+
+}
+
+/*text sobre mi*/
+.flex{
+   display: flex;
+   justify-content: center;
+    text-align: center;
+}
+
+.ar1{
+    padding:4%;
+    margin-top:4%;
+}
+/*Mis habilidades */
+.tarjeta_blanca{
+    display:inline-block;
+    width:300px;
+    height:350px;
+    background-color: #ffffff;
+    text-align: center;
+}
+.defaul{
+    width:180px;
+    height:210px;
+
+}
+.conten_tarjetas{
+    display:flex;
+    justify-content:space-around;
+}
+
+.tarjeta_blanca p{
+    color: #242635;
+}
+
+/*Mis habilidades*/
+.conten_barras{
+    display:flex;
+    justify-content: center;
+}
+.lg{
+    max-width:900px;
+    
+}
+.barra{
+ display:inline-block;
+    height:15px;
+    width:800px;
+    background-color: #34B0BE;
+    margin-top:25px;
+    border-radius:15px;
+    position: relative;
+
+
+}
+.ac{/*aliniacion de barra blanca*/
+    display: inline-flex;
+    justify-content: end;
+}
+.barra2{
+    display: block;
+    height:15px;
+   
+    background-color: #ffffff;
+    border-radius:25px;
+    position:absolute;
+    
+
+}
+
+.centrado{
+display: flex;
+justify-content: center;
+}
+.textPP{
+    display:block;
+    text-align: end;
+    color: #34B0BE;
+}
+.text1P{
+    display:inline-block
+}
+
+/*Mis portafolios*/
+
+.conten_portafolios{
+display: flex;
+justify-content:space-around;
+text-align:center;
+}
+.medidas{
+    width:300px;
+    height: 300px;
+}
+
+/*Contacto*/
+
+.conten_contacto{
+    width: 600px;
+    height: 600px;
+    position: relative;
+   
+}
+
+.tarjeta_contacto{
+width:250px;
+height: 250px;
+background-color: #ffffff;
+}
+.obj2{
+    position: absolute;
+    bottom:0;
+    right: 0;
+
+}
+
+
+
+
