@@ -1,0 +1,116 @@
+
+
+
+@media(max-width:500px) {body{
+   font-family: 16px;
+   
+}
+}
+@media (max-width:500px) {
+h1{
+    text-decoration:underline white 2px;
+   
+}
+
+.titule{
+    font-size:1.5rem;
+    
+    
+}
+.sub_titule{
+    font-size: 1.3rem;
+    margin-bottom:0;
+    
+}
+.subsepcion{
+    font-size: 1rem;
+}
+.conten_portafolios{
+flex-wrap: wrap;
+
+}
+.cuerpo_movil{
+width: 150%;
+
+}
+
+    
+}
+@media (max-width:500px) {
+    .body_nav{
+       margin: 0;
+       
+    }
+    
+    
+   
+}
+
+@media (max-width:500px) {
+    .circle{
+        width: 200px;
+        height:200px;
+    }
+    .icos1 div{
+        width:20px ;
+        height: 20px;
+    }
+    .espacio_celda_8{
+        width: 90%;
+    }
+
+
+}
+
+@media (max-width:500px) {
+    ul{
+        width: 100%;
+       
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
+
+
+
+@media (max-width:500px) {
+    .conten_tarjetas{
+        flex-wrap: wrap;
+    }
+    
+}
+
+/*menu amburguesa*/
+
+@media (max-width:500px) {
+    .menu_amburguer{
+        width: 35px;
+    }
+    .menu_oculto{
+        display:none
+        
+    }
+    .href_pagina_home{
+        padding-top:50px;
+    }
+
+    .menu_active{
+        display:block
+    }
+  .conten_menu{
+      
+      
+      margin:1%;
+      display:flex;
+      justify-content: flex-end;
+  }  
+  ul{
+      display:inline;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+  }
+  .conten_li{
+      text-align:center;
+  }
+}
